@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+VN&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="mediaquery.css">
+</head>
+<div class="container">
+    <h2>Registration Form</h2>
+    <form action="">
+        <div class="row">
+            <div class="input">
+                <label for="name">First Name</label>
+                <input type="text" id="name" placeholder="Enter First Name">
+            </div>
+            <div class="input">
+                <label for="last_name">Last Name</label>
+                <input type="text" id="last_name" placeholder="Enter Last Name">
+            </div>
+            <div class="input">
+                <label for="DOB">Date of Birth</label>
+                <input type="date" id="DOB" placeholder="Enter Your Name">
+            </div>
+        </div>
+        <div class="row">
+            <div class="input">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder=" Email">
+            </div>
+            <div class="input">
+                <label for="mobile_no">Mobile Number</label>
+                <input type="number" id="mobile_no" placeholder="Mobile Number">
+            </div>
+            <div class="radio-container">
+                <div class="radio_heading">
+                    <label for="gender">Gender</label>
+                </div>
+                <div class="radio-row">
+                    <div class="radiobtn">
+                        <input type="radio" class="gender" value="male" name="gender">
+                        <label for="gender" class="gender-val">Male</label>
+                    </div>
+                    <div class="radiobtn">
+                        <input type="radio" class="gender" value="female" name="gender">
+                        <label for="gender" class="gender-val">Female</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input">
+                <label for="join_date">Join Date</label>
+                <input type="date" id="join_date" placeholder="Enter Your Name">
+            </div>
+            <div class="input">
+                <label for="father's_name">Father's Name</label>
+                <input type="text" id="father's_name" placeholder="Enter Father's Name">
+            </div>
+            <div class="input">
+                <label for="f_mobile_no">Father's Mobile Number</label>
+                <input type="number" id="f_mobile_no" placeholder="Enter Father's Mobile Number">
+            </div>
+        </div>
+        <div class="row">
+            <div class="input">
+                <label for="last_graduation">Last Graduation</label>
+                <input type="text" id="name" placeholder="Enter Last Graduation">
+            </div>
+            <div class="input">
+                <label for="tech">Technology</label>
+                <input type="text" id="tech" placeholder="">
+            </div>
+            <div class="input">
+                <label for="linked_in">LinkedIn</label>
+                <input type="text" id="name" placeholder="Enter LinkedIn">
+            </div>
+        </div>
+        <div class="row">
+            <div class="input">
+                <label for="resume">Resume</label>
+                <input type="file" id="resume" placeholder="Enter Your Name">
+            </div>
+            <div class="radio-container">
+                <div class="radio_heading">
+                    <label for="mode">Mode</label>
+                </div>
+                <div class="radio-row">
+                    <div class="radiobtn">
+                        <input type="radio" class="gender" value="male" name="mode">
+                        <label for="gender" class="gender-val">On-Site</label>
+                    </div>
+                    <div class="radiobtn">
+                        <input type="radio" class="gender" value="female" name="mode">
+                        <label for="gender" class="gender-val">Remote</label>
+                    </div>
+                </div>
+            </div>
+            <div class="radio-container">
+                <div class="radio_heading">
+                    <label for="gender">Session</label>
+                </div>
+                <div class="radio-row">
+                    <div class="radiobtn">
+                        <input type="radio" class="gender" value="male" name="session">
+                        <label for="gender" class="gender-val">Full Time</label>
+                    </div>
+                    <div class="radiobtn">
+                        <input type="radio" class="gender" value="female" name="session">
+                        <label for="gender" class="gender-val">Part Time</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="row">
+                <div class="radio-container  radio_container2">
+                    <div class="radio_heading radio-heading2">
+                        <label for="gender">Currently Working</label>
+                    </div>
+                    <div class="radio-row">
+                        <div class="radiobtn">
+                            <input type="radio" class="gender" value="male" name="working">
+                            <label for="gender" class="gender-val">Yes</label>
+                        </div>
+                        <div class="radiobtn">
+                            <input type="radio" class="gender" value="female" name="working">
+                            <label for="gender" class="gender-val">No</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="radio-container">
+                    <div class="radio_heading">
+                        <label for="gender">System Facility</label>
+                    </div>
+                    <div class="radio-row radio_row">
+                        <div class="radiobtn">
+                            <input type="radio" class="gender" value="male" name="system">
+                            <label for="gender" class="gender-val">Yes</label>
+                        </div>
+                        <div class="radiobtn radio_btn">
+                            <input type="radio" class="gender" value="female" name="system">
+                            <label for="gender" class="gender-val">No</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="input">
+                    <label for="drop_down">Desired Program</label>
+                    <select name="drop_down" id="drop_down">
+                        <option value="Front-End">Front-End</option>
+                        <option value="Back-End">Back-End</option>
+                        <option value="Full-Stack Dev">Full-Stack Dev</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row submit_btn">
+                <div class="submit">
+                    <button><input type="submit"></button>
+                </div>
+            </div>
+    </form>
+    </form>
+
+</div>
+
+<body>
+
+</body>
+
+</html>
+
+
+
+
+<!-- <div id="registrationForm">
+    <div id="container">
+        <form action="">
+            <div id="heading">
+                <h2>Registration Form</h2>
+            </div>
+            <div class="rows">
+
+               <div class="input">
+                <label for="r1">First Name</label>
+                <input type="text" id="r1" placeholder="Enter First Name">
+               </div>
+
+               <div class="input">
+                <label for="r1">First Name</label>
+                <input type="text" id="r1" placeholder="Enter First Name">
+               </div>
+
+               <div class="input">
+                <label for="r1">First Name</label>
+                <input type="text" id="r1" placeholder="Enter First Name">
+               </div>
+            </div>
+        </form>
+    </div>
+
+</div> -->
